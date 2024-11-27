@@ -10,39 +10,6 @@ body {
   padding: 20px;
 }
 
-.panel {
-  margin: 20px auto;
-  max-width: 600px;
-  background: white;
-  border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  overflow: hidden;
-}
-
-.panel-toggle {
-  width: 100%;
-  padding: 15px;
-  font-size: 1.2rem;
-  font-weight: bold;
-  color: white;
-  background: #080645;
-  border: none;
-  cursor: pointer;
-  transition: background 0.3s ease;
-}
-
-.panel-toggle:hover {
-  background: #080645;
-}
-
-.panel-toggle.open {
-  background: #080645;
-}
-
-.panel-content {
-  padding: 20px;
-}
-
 .carousel-image {
   width: 100%;
   height: auto;
@@ -53,53 +20,4 @@ body {
   margin-top: 10px;
   font-size: 1.2rem;
   color: #555;
-}
-
-.image-gallery {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 16px;
-}
-
-.image-card {
-  flex: 1 1 calc(25% - 16px);
-  /* 4 colonnes */
-  text-align: center;
-}
-
-.image-card img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 8px;
-}
-
-.pagination {
-  margin-top: 16px;
-  text-align: center;
-}
-
-.pagination button {
-  margin: 4px 4px;
-  padding: 8px 12px;
-  border: none;
-  background-color: #FFF;
-  cursor: pointer;
-}
-
-.pagination button.active {
-  font-weight: bold;
-  background-color: #080645;
-  color: white;
-}
-
-.banner {
-  background-color: #2e3d4b; /* Couleur de fond, modifiable */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%; /* Pleine largeur */
-  height: 256px; /* Hauteur fixe */
-  overflow: hidden; /* Empêche tout dépassement */
-  margin: 0; /* Supprime les marges éventuelles */
-  padding: 0; /* Supprime les paddings éventuels */
 }
