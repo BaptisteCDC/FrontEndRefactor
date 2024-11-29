@@ -5,10 +5,10 @@ export function FakeMenu() {
     return (
       <nav className="fake-menu">
         <ul>
-          <Link to="/gallery">Accueil</Link>
-          <li><a href="#about">À propos</a></li>
+          <li><a href="#home">Accueil</a></li>
+          <Link to="/about-us">A propos</Link>
           <li><a href="#services">Services</a></li>
-          <li><a href="#gallery">Galerie</a></li>
+          <Link to="/gallery">Galerie</Link>
           <Link to="/contact-us">Contact</Link>
         </ul>
       </nav>

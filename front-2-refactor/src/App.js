@@ -6,7 +6,7 @@ import { Banner, FakeFooter, FakeMenu } from './layout';
 function App() {
   return (
     <div className="app-container">
-        <header className="banner">
+      <header className="banner">
           <Banner />
       </header>
       <FakeMenu />
