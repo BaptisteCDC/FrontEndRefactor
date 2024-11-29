@@ -20,7 +20,7 @@ const OpenClosePanelContextProvider = ({
         
             {isOpen && (
                 <div className="panel-content">
-                {children}
+                    {children}
                 </div>
             )}
             </div>

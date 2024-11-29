@@ -1,8 +1,7 @@
 import React from "react";
+import { Outlet } from "react-router-dom";
 import "./App.css";
-import { OpenClosePanelContextProvider } from './context';
 import { Banner, FakeFooter, FakeMenu } from './layout';
-import { Gallery } from './pages';
 
 function App() {
   return (
@@ -11,10 +10,11 @@ function App() {
           <Banner />
       </header>
       <FakeMenu />
-      <h1>Decouvrez nos magnifiques paysages</h1>
+        <Outlet />
+      {/* <h1>Decouvrez nos magnifiques paysages</h1>
       <OpenClosePanelContextProvider>
         <Gallery />
-      </OpenClosePanelContextProvider>
+      </OpenClosePanelContextProvider> */}
       <FakeFooter />
     </div>
   );
