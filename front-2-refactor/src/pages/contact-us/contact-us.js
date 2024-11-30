@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import './contact-us.css';
 
-function ContactUs() {
+export function ContactUs() {
   const [formData, setFormData] = useState({
     name: '',
     email: '',

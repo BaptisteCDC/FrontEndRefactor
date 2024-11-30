@@ -1,8 +1,6 @@
 import { createBrowserRouter, Navigate } from 'react-router-dom';
 import App from '../App';
-import ContactUs from '../pages/contact-us/contact-us';
-import { Gallery } from '../pages';
-import { AboutUs } from '../pages/about-us/about-us';
+import { AboutUs, ContactUs } from '../pages';
 
 const router = createBrowserRouter([
     {
@@ -11,7 +9,10 @@ const router = createBrowserRouter([
         children: [
             {
                 path: 'gallery',
-                element: <Gallery />
+                async lazy() {
+                    let { Gallery } = await import('../pages');
+                    return { Component: Gallery }
+                }
             },
             {
                 path: 'contact-us',

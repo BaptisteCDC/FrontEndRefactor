@@ -9,14 +9,3 @@ body {
   text-align: center;
 }
 
-.carousel-image {
-  width: 100%;
-  height: auto;
-  border-radius: 4px;
-}
-
-.carousel-title {
-  margin-top: 10px;
-  font-size: 1.2rem;
-  color: #555;
-}

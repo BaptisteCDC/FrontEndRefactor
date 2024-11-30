@@ -1,1 +1,1 @@
-export { OpenClosePanelContext, OpenClosePanelContextProvider } from './open-close-panel/open-close-panel.context'
+export { HandlePaginationContext, HandlePaginationContextProvider} from './handle-pagination/handle-pagination.context'
