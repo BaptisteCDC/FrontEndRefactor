@@ -1,16 +1,18 @@
-.image-gallery {
+.imageGallery {
     display: flex;
     flex-wrap: wrap;
     gap: 16px;
+    /* max-height: 500px;
+    overflow-y: scroll; */
   }
   
-  .image-card {
+  .imageCard {
     flex: 1 1 calc(25% - 16px);
     /* 4 colonnes */
     text-align: center;
   }
   
-  .image-card img {
+  .imageCard img {
     max-width: 100%;
     height: auto;
     border-radius: 8px;

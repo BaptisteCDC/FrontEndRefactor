@@ -8,10 +8,12 @@ function App() {
   return (
     <HandlePaginationContextProvider>
       <div className="app-container">
-        <Banner />
-        <FakeMenu />
-        <Outlet />
-        <FakeFooter />
+          <Banner />
+          <FakeMenu />
+          <main className="body-container">
+            <Outlet />
+          </main>
+          <FakeFooter />
       </div>
     </HandlePaginationContextProvider>
  

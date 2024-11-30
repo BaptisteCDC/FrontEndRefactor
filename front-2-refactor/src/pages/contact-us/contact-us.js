@@ -1,6 +1,6 @@
 // ContactUs.js
 import React, { useState } from 'react';
-import './contact-us.css';
+import styles from './contact-us.module.css';
 
 export function ContactUs() {
   const [formData, setFormData] = useState({
@@ -21,14 +21,13 @@ export function ContactUs() {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log('Form submitted:', formData);
-    // Add form submission logic here
   };
 
   return (
-    <div className="contact-us">
+    <div className={styles.contactUs}>
       <h1>Nous Contacter</h1>
       <form onSubmit={handleSubmit}>
-        <div className="form-group">
+        <div className={styles.formGroup}>
           <label htmlFor="name">Nom:</label>
           <input
             type="text"
@@ -39,7 +38,7 @@ export function ContactUs() {
             required
           />
         </div>
-        <div className="form-group">
+        <div className={styles.formGroup}>
           <label htmlFor="email">Email:</label>
           <input
             type="email"
@@ -50,7 +49,7 @@ export function ContactUs() {
             required
           />
         </div>
-        <div className="form-group">
+        <div className={styles.formGroup}>
           <label htmlFor="subject">Sujet:</label>
           <input
             type="text"
@@ -61,7 +60,7 @@ export function ContactUs() {
             required
           />
         </div>
-        <div className="form-group">
+        <div className={styles.formGroup}>
           <label htmlFor="message">Message:</label>
           <textarea
             id="message"
@@ -71,7 +70,7 @@ export function ContactUs() {
             required
           ></textarea>
         </div>
-        <button type="submit">Envoyer</button>
+        <button className={styles.submit} type="submit">Envoyer</button>
       </form>
     </div>
   );
