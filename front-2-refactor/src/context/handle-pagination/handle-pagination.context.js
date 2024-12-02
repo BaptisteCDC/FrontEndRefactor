@@ -5,7 +5,7 @@ const HandlePaginationContext = createContext(null)
 
 const HandlePaginationContextProvider = ({ children }) => {
     const [currentPage, setCurrentPage] = useState(1);
-    const [itemsPerPage, setItemsPerPages] = useState(30)
+    const [itemsPerPage] = useState(30)
   
     // Calculer les indices des images pour la page actuelle
     const indexOfLastItem = currentPage * itemsPerPage;
@@ -21,8 +21,7 @@ const HandlePaginationContextProvider = ({ children }) => {
             getCurrentPage,
             goToPage,
             getTotalPages,
-            getCurrentImages,
-            setItemsPerPages
+            getCurrentImages
         }}>
             {children}
         </HandlePaginationContext.Provider>
