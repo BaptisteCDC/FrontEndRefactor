@@ -1,0 +1,33 @@
+.panel {
+    margin: 20px auto;
+    max-width: 600px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .panel-toggle {
+    width: 100%;
+    padding: 15px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    background: #080645;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .panel-toggle:hover {
+    background: #080645;
+  }
+  
+  .panel-toggle.open {
+    background: #080645;
+  }
+  
+  .panel-content {
+    padding: 20px;
+  }
+  
