@@ -45,4 +45,20 @@ npm start
 
 https://github.com/cnumr/GreenIT-Analysis/blob/master/README.md
 
+### Contribution
+
+Les contributions sont les bienvenues pour améliorer la qualité et la performance du projet 💡
+
+Étapes pour contribuer :
+- Forker le dépôt.
+- Créer une branche pour votre contribution :
+
+  ```sh
+git checkout -b feature/ma-contribution
+```
+
+- Effectuer vos modifications (par exemple : optimisation des images, amélioration du code, ajout de tests, etc.).
+- Soumettre une Pull Request (PR) vers la branche principale avec une description claire des changements apportés.
+- Attendre la revue de code et l’intégration de votre PR 🎉
+
 
