@@ -11,3 +11,26 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Custom Scrollbar Styling for WebKit Browsers */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #d3d3d3; /* Light gray background */
+  border-radius: 10px; /* Rounded corners */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #ffffff; /* White thumb */
+  border-radius: 10px; /* Rounded corners */
+  border: 2px solid #d3d3d3; /* Light gray border to create some padding */
+  background-clip: content-box; /* Padding inside the thumb */
+}
+
+/* Custom Scrollbar Styling for Firefox */
+* {
+  scrollbar-width: thin; /* Thin scrollbar */
+  scrollbar-color: #080645 #eaeae3; /* White thumb with light gray track */
+}

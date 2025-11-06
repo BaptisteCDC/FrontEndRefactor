@@ -1,0 +1,27 @@
+.fake-menu {
+    background-color: #080645;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+  }
+  .fake-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  .fake-menu li {
+    display: inline;
+  }
+  .fake-menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  .fake-menu a:hover {
+    color: #acadb4db; /* Couleur dorée au survol */
+  }

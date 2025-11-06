@@ -1,0 +1,11 @@
+.banner {
+    background-color: #2e3d4b; /* Couleur de fond, modifiable */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* Pleine largeur */
+    height: 256px; /* Hauteur fixe */
+    overflow: hidden; /* Empêche tout dépassement */
+    margin: 0; /* Supprime les marges éventuelles */
+    padding: 0; /* Supprime les paddings éventuels */
+  }
