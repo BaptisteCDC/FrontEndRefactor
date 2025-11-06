@@ -53,7 +53,7 @@ Les contributions sont les bienvenues pour améliorer la qualité et la performa
 - Forker le dépôt.
 - Créer une branche pour votre contribution :
 
-  ```sh
+```sh
 git checkout -b feature/ma-contribution
 ```
 
